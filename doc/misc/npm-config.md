@@ -348,6 +348,13 @@ packages.
 The "maxTimeout" config for the `retry` module to use when fetching
 packages.
 
+### fetch-size-max
+
+* Default: 20
+* Type: Number
+
+The maximum number of dependencies to fetch in parallel.
+
 ### git
 
 * Default: `"git"`
