@@ -14,5 +14,3 @@ before_install:
   - "mkdir -p /var/run/couchdb"
 sudo: false
 script: "npm test"
-notifications:
-    slack: npm-inc:kRqQjto7YbINqHPb1X6nS3g8
